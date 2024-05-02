@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0px auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+    
+}
+nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #fff;
+    padding: 36px 10px;
+    margin: 0 1px;
+    font-weight: 500px;
+}
+nav a:hover{
+    background: #fff;
+    color: black;
+}
+.banner-area{
+    background-image: url(images/banner.jpg.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 50vh;
+    width: 100%;
+    
+}
+.banner-area:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: -7;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: #fff;
+}
+
+
+
+.container{
+    background: #fff;
+    padding: 15px 9%;
+    
+   
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: blue;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+.container .box-container .box img{
+    height: 80px;
+}
+.container .box-container .box h3{
+    color: gray;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+    transform: scale(1.03);
+}
+.banner-area2{
+    background-image: url(images/switch.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 50vh;
+    width: 100%;
+    
+}
+.banner-area2:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: -7;
+    z-index: -1;
+}
+.banner-area2 h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: #fff;
+}
+.hello h1{
+    size: 1000px;
+    background: blue;
+    color: #fff;
+}
